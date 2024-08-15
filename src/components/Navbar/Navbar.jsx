@@ -10,10 +10,10 @@ import {
 
 export default function Navbar() {
   return (
-    <div>
-      <nav className="flex justify-between  rounded-lg bg-[#683091] bg-lime-500 px-2 py-2">
+    <div className="md:w-full sm:w-full mx-auto bg-[#683091]">
+      <nav className="grid md:grid-flow-col justify-between  rounded-t-lg  px-2 py-2">
         <div className="flex items-center space-x-3">
-          <h2 className="font-semibold text-center text-white">
+          <h2 className="font-semibold text-xs lg:text-sm ml-3 text-center text-white">
             বাংলাদেশ জাতীয় তথ্য বাতায়ন
           </h2>
           <Select>
@@ -21,7 +21,7 @@ export default function Navbar() {
               <SelectValue placeholder="অফিসের ধরণ" />
             </SelectTrigger>
             <SelectContent>
-              <SelectGroup className="w-50">
+              <SelectGroup className="w-55 pr-2">
                 <SelectLabel>অফিসের ধরণ</SelectLabel>
                 <SelectItem value="#">মন্ত্রণালয়/বিভাগ</SelectItem>
                 <SelectItem value="#">অধিদপ্তর বাতায়ন</SelectItem>
@@ -38,9 +38,9 @@ export default function Navbar() {
             Go
           </button>
         </div>
-        <div className="flex">
-          <input className="p-1 rounded-lg " type="text" />
-          <button className="bg-green-500 font-medium ml-2 text-white mr-7 p-2 rounded-lg ">
+        <div className="flex space-x-5 md:mt-0 mt-5 mx-5">
+          <input className="p-1 sm:mr-8  rounded-lg" type="text" />
+          <button className="bg-green-500 font-medium ml-2 text-white mr-7 p-2 rounded-lg">
             Search
           </button>
           <button className="bg-red-500 p-2 font-medium text-white rounded-lg">
