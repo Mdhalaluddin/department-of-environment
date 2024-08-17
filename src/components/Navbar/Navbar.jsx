@@ -19,12 +19,12 @@ export default function Navbar() {
         </div>
         <div className="flex items-center">
           <h2 className="flex lg:text-xl items-center font-normal text-lg mr-3 text-center text-black">
-            <BsBagDashFill className="mr-2 " />
+            <BsBagDashFill className="mr-2" />
             bd state jobs
           </h2>
           <h2 className="flex lg:text-xl items-center font-normal text-lg ml-3 text-center text-black">
             <MdLanguage className="mr-2 " />
-            bd state jobs
+            Translate
           </h2>
         </div>
       </nav>
