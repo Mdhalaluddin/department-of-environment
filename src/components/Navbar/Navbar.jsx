@@ -10,7 +10,7 @@ export default function Navbar() {
             <span className="font-bold flex items-center ">
               <img
                 className="w-10 h-7 mr-3"
-                src="/src/components/cover/logo.png"
+                src="https://i.ibb.co/1Rn2Rmx/logo.png"
                 alt=""
               />
               Environment.gov
