@@ -19,9 +19,9 @@ export default function Layout() {
         <div className="bg-green-800">
           <SecendNavbar />
         </div>
-        <div className="max-w-[97%]  mx-auto mb-5 rounded-lg">
-          <Hero />
-        </div>
+      </div>
+      <div className="max-w-[97%]  mx-auto mb-5 rounded-lg">
+        <Hero />
       </div>
 
       <div className="max-w-[97%] mx-auto">
@@ -32,7 +32,7 @@ export default function Layout() {
           <div className="md:w-2/4 pb-5 bg-gray-100 mx-2 mb-2">
             <Photo />
           </div>
-          <div className="md:w-1/4 sm:w-full bg-slate-100 pb-5">
+          <div className="md:w-1/4 w-full bg-slate-100 pb-5">
             <Notice />
           </div>
         </div>

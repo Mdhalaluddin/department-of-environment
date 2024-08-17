@@ -11,8 +11,8 @@ export default function SecendNavbar() {
   console.log(click);
   const content = (
     <>
-      <div className="lg:hidden block absolute top-16 z-50 w-full left-0 right-0 bg-green-900 transition">
-        <ul className="text-center text-xl p-20">
+      <div className="lg:hidden block absolute z-10 w-full left-0 bottom-0 top-20 right-0 bg-green-900 transition">
+        <ul className="text-center text-xl p-10 -mt-5">
           <Link spy={true} smooth={true} to="Home">
             <li className="my-4 border-b border-slate-900 hover:bg-rose-400 hover:rounded">
               Home
@@ -59,7 +59,7 @@ export default function SecendNavbar() {
   );
   return (
     <nav>
-      <div className="h-10vh flex items-center justify-between z-50 text-white lg:py-3 px-6 py-4">
+      <div className="h-10 z-50 flex items-center justify-between text-white lg:py-5 px-20 py-4">
         <div className="flex-1 items-center flex">
           <span className="font-bold flex items-center ">
             Department of the Environment

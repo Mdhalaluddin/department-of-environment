@@ -2,10 +2,10 @@ import { AiFillAlert } from "react-icons/ai";
 
 export default function Notice() {
   return (
-    <div className="">
+    <div className="md:mt-0 mt-5 ">
       <div className="items-center bg-slate-100">
-        <div className="ml-12 rounded lg:mx-0">
-          <h1 className="text-2xl w-full font-medium p-2 px-5 rounded-lg text-rose-600  bg-green-800 mb-4 pt-5 justify-center lg:justify-start flex  items-center">
+        <div className=" rounded lg:mx-0">
+          <h1 className="text-2xl text-center w-full font-medium p-2 mr-10 px-10 rounded-lg text-rose-600  bg-green-800 mb-4 pt-5 justify-center lg:justify-start flex  items-center">
             Notice Board
           </h1>
         </div>
