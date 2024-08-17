@@ -5,6 +5,9 @@ import Notice from "../Notice/Notice";
 import RealTimeAirQuality from "../RealTime/RealTimeAirQuality";
 import CardSection from "../Card/CardSection";
 import Photo from "../Photo/Photo";
+import Footer from "../Footer/Footer";
+import EIAReport from "../EIAReport/EIAReport";
+import Help from "../Help/Help";
 
 export default function Layout() {
   return (
@@ -34,9 +37,22 @@ export default function Layout() {
           </div>
         </div>
         {/* card section */}
-        <div className="bg-slate-100 mb-20">
+        <div className="bg-slate-100 md:mt-0 mt-5 rounded-lg mb-20">
           <CardSection />
         </div>
+      </div>
+      {/* table */}
+      <div className="max-w-[97%] bg-slate-100 md:flex justify-between mx-auto">
+        <div className="md:w-3/4 w-full mt-10 rounded-lg">
+          <EIAReport />
+        </div>
+        <div className="md:w-1/4 mt-10 w-full">
+          <Help />
+        </div>
+      </div>
+      {/* footer */}
+      <div>
+        <Footer />
       </div>
     </>
   );

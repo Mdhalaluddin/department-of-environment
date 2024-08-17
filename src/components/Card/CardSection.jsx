@@ -10,10 +10,10 @@ import {
 export default function CardSection() {
   return (
     <>
-      <h1 className="text-4xl font-bold text-center py-20">
+      <h1 className="text-4xl font-bold text-center sm:text-3xl pb-10 pt-20">
         ​​What We Can Do For You
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-3 justify-center mt-2 md:grid-cols-2 gap-4">
         <Card className="w-96  grid bg-green-800">
           <CardHeader floated={false} className="h-80">
             <img
@@ -26,7 +26,7 @@ export default function CardSection() {
             <Typography
               variant="h4"
               color="blue-gray"
-              className="my-4 underline cursor-pointer "
+              className="my-4 hover:text-rose-600 underline cursor-pointer "
             >
               Emergency
             </Typography>
@@ -87,7 +87,7 @@ export default function CardSection() {
             <Typography
               variant="h4"
               color="blue-gray"
-              className="my-4 underline cursor-pointer "
+              className="my-4 hover:text-rose-600 underline cursor-pointer "
             >
               Recyclin​g
             </Typography>
@@ -148,7 +148,7 @@ export default function CardSection() {
             <Typography
               variant="h4"
               color="blue-gray"
-              className="my-4 underline cursor-pointer "
+              className="my-4 hover:text-rose-600 underline cursor-pointer "
             >
               Air Quality​
             </Typography>
@@ -209,7 +209,7 @@ export default function CardSection() {
             <Typography
               variant="h4"
               color="blue-gray"
-              className="my-4 underline cursor-pointer "
+              className="my-4 hover:text-rose-600 underline cursor-pointer "
             >
               Community Calendar
             </Typography>
@@ -269,7 +269,7 @@ export default function CardSection() {
             <Typography
               variant="h4"
               color="blue-gray"
-              className="my-4 underline cursor-pointer "
+              className="my-4 hover:text-rose-600 underline cursor-pointer "
             >
               I​nv​oices​​
             </Typography>
@@ -330,7 +330,7 @@ export default function CardSection() {
             <Typography
               variant="h4"
               color="blue-gray"
-              className="my-4 underline cursor-pointer "
+              className="my-4 hover:text-rose-600 underline cursor-pointer "
             >
               Search Permits​
             </Typography>

@@ -55,7 +55,7 @@ export default function Photo() {
                   <Button
                     size="sm"
                     variant="text"
-                    className="flex items-center bg-green-300 rounded-lg p-2 my-2 gap-2"
+                    className="flex items-center hover:bg-green-600 hover:text-white rounded-lg p-2 my-2 gap-2"
                   >
                     Details
                     <svg
@@ -96,14 +96,14 @@ export default function Photo() {
                   color="blue-gray"
                   className="my-2 text-lg underline cursor-pointer "
                 >
-                  Syeda Rizwana Hasan
+                  Dr. Farhina Ahmed
                 </Typography>
                 <Typography
                   color="blue-gray"
                   className="font-semibold text-base px-2"
                   textGradient
                 >
-                  Honorable Adviser
+                  Secretary
                 </Typography>
                 <Typography
                   color="blue-gray"
@@ -118,7 +118,7 @@ export default function Photo() {
                   <Button
                     size="sm"
                     variant="text"
-                    className="flex items-center bg-green-300 rounded-lg p-2 my-2 gap-2"
+                    className="flex items-center hover:bg-green-600 hover:text-white rounded-lg p-2 my-2 gap-2"
                   >
                     Details
                     <svg
