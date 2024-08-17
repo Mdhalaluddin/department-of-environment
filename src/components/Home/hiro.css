@@ -1,0 +1,6 @@
+.banner img {
+  /* background-image: url("/src/components/cover/download.jpeg");
+  background-repeat: no-repeat; */
+  max-width: 100%;
+  height: auto;
+}

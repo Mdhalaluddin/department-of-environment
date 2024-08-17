@@ -1,21 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiro+Bangla:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
 
-.tiro-bangla-regular {
-  font-family: "Tiro Bangla", serif;
+.merriweather-regular {
+  font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
 }
-* {
-  font-family: "Tiro Bangla", serif;
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.tiro-bangla-regular-italic {
-  font-family: "Tiro Bangla", serif;
-  font-weight: 400;
-  font-style: italic;
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 @layer base {
@@ -81,5 +84,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: merriweather;
   }
 }

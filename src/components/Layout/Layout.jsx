@@ -7,12 +7,17 @@ import RealTimeAirQuality from "../RealTime/RealTimeAirQuality";
 export default function Layout() {
   return (
     <>
-      <Navbar></Navbar>
+      <div className="bg-white h-11">
+        <Navbar />
+      </div>
+      <div className="bg-green-800">
+        <SecendNavbar />
+      </div>
       <div className="max-w-[97%] mx-auto">
         <Hero />
-        <SecendNavbar />
+
         <div className="md:flex">
-          <div className="md:w-2/3 sm:w-full">
+          <div className="md:w-3/4 sm:w-full">
             <Notice />
           </div>
           <div className="">
