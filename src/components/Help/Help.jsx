@@ -7,7 +7,7 @@ export default function Help() {
       <div>
         <img
           className="py-5"
-          src="/src/components/Help/Help-img/2023-11-23-10-25-af9547ee397434fcd852c354feeeaa92.png"
+          src="https://i.ibb.co/YRYsyZN/2023-11-23-10-25-af9547ee397434fcd852c354feeeaa92.png"
           alt=""
         />
       </div>

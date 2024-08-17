@@ -18,7 +18,7 @@ export default function CardSection() {
           <CardHeader floated={false} className="h-80">
             <img
               className=""
-              src="/src/components/Card/card-img/6.png"
+              src="https://i.ibb.co/n8Zwhsp/6.png"
               alt="profile-picture"
             />
           </CardHeader>
@@ -79,7 +79,7 @@ export default function CardSection() {
           <CardHeader floated={false} className="h-80">
             <img
               className=""
-              src="/src/components/Card/card-img/5.png"
+              src="https://i.ibb.co/D1YLc84/5.png"
               alt="profile-picture"
             />
           </CardHeader>
@@ -140,7 +140,7 @@ export default function CardSection() {
           <CardHeader floated={false} className="h-80">
             <img
               className=""
-              src="/src/components/Card/card-img/4.png"
+              src="https://i.ibb.co/Nx03Hgw/4.png"
               alt="profile-picture"
             />
           </CardHeader>
@@ -201,7 +201,7 @@ export default function CardSection() {
           <CardHeader floated={false} className="h-80">
             <img
               className=""
-              src="/src/components/Card/card-img/2.png"
+              src="https://i.ibb.co/0jqgRxC/2.png"
               alt="profile-picture"
             />
           </CardHeader>
@@ -261,7 +261,7 @@ export default function CardSection() {
           <CardHeader floated={false} className="h-80">
             <img
               className=""
-              src="/src/components/Card/card-img/1.png"
+              src="https://i.ibb.co/HGjq5Vv/1.png"
               alt="profile-picture"
             />
           </CardHeader>
@@ -322,7 +322,7 @@ export default function CardSection() {
           <CardHeader floated={false} className="h-80">
             <img
               className=""
-              src="/src/components/Card/card-img/3.png"
+              src="https://i.ibb.co/VVbFqFG/3.png"
               alt="profile-picture"
             />
           </CardHeader>

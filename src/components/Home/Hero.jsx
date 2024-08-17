@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="rounded-lg bg-cover sm:mb-10">
         <div className="relative h-full w-full">
           <img
-            src="/src/components/cover/download.jpeg"
+            src="https://i.ibb.co/XbK0fVp/download.jpg"
             alt="image 1"
             className="max-h-96 w-full bg-no-repeat"
           />
@@ -13,7 +13,7 @@ export default function Hero() {
               <div className="flex items-center">
                 <img
                   className="w-3/12 "
-                  src="/src/components/cover/download-removebg-preview.png"
+                  src="https://i.ibb.co/QHNRxf8/download-removebg-preview.png"
                   alt=""
                 />
                 <div>

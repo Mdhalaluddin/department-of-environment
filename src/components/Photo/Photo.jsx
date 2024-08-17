@@ -23,7 +23,7 @@ export default function Photo() {
               <CardHeader floated={false}>
                 <img
                   className="w-full h-52 p-2"
-                  src="/src/components/Photo/advisser/head.jpg"
+                  src="https://i.ibb.co/4jpxfWr/head.jpg"
                   alt="profile-picture"
                 />
               </CardHeader>
@@ -86,7 +86,7 @@ export default function Photo() {
               <CardHeader floated={false}>
                 <img
                   className="w-full h-52"
-                  src="/src/components/Photo/advisser/Secretary.jpg"
+                  src="https://i.ibb.co/R2BXrN9/Secretary.jpg"
                   alt="profile-picture"
                 />
               </CardHeader>
